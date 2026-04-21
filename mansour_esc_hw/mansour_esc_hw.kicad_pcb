@@ -8133,6 +8133,94 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "at least 2oz copper height(thickness) is required to handle 20A.\nTo reduce cost, go with 1oz copper and\npour a lot of solder to GND/Power Zones and\nmotor U/V/W zones.\nSoldering 2x1mm copper bar on those zones would be great"
+		(at 74.1 30 0)
+		(layer "Cmts.User")
+		(uuid "bbc9c781-0f65-4df2-b91a-5b62bab7f034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "9094c388-fa9c-410c-b297-8f779f8c53ad")
+		(pts
+			(xy 124.974164 40.05) (xy 124.974164 63.05)
+		)
+		(height 8.225836)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "23"
+			(at 132.05 51.55 90)
+			(layer "Cmts.User")
+			(uuid "9094c388-fa9c-410c-b297-8f779f8c53ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "ef840657-426d-418d-a8df-7acd396d4d34")
+		(pts
+			(xy 69.974164 40.05) (xy 124.974164 40.05)
+		)
+		(height -7.15)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "55"
+			(at 97.474164 31.75 0)
+			(layer "Cmts.User")
+			(uuid "ef840657-426d-418d-a8df-7acd396d4d34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
 	(segment
 		(start 93.378164 55.466)
 		(end 93.554164 55.29)
