@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MBS_Sensors") (type "KiCad") (uri "${KIPRJMOD}/MBS_Sensors.kicad_sym") (options "") (descr ""))
+)
