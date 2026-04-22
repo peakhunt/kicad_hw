@@ -1578,9 +1578,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 83.82 52.07)
+		(end 106.68 59.69)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "889c351b-4fd1-4fa8-bcd4-b6e179dd024d")
+	)
 	(text "let's just use this 1uF\nas an all in one\ndecoupling cap."
 		(exclude_from_sim no)
-		(at 87.122 60.96 0)
+		(at 95.25 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,8 +2520,8 @@
 		)
 		(uuid "7ae2e3e9-87d8-4a8f-9ba7-47155ef74b32")
 	)
-	(label "GP20"
-		(at 29.21 45.72 0)
+	(label "UART0_RX"
+		(at 26.67 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2538,8 +2550,8 @@
 		)
 		(uuid "85e03b2e-c265-4210-8c26-840aa88e425c")
 	)
-	(label "GP21"
-		(at 29.21 48.26 0)
+	(label "UART0_TX"
+		(at 26.67 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)

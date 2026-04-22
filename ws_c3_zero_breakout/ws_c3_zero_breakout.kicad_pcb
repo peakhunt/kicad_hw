@@ -656,7 +656,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/GP20")
+			(net "/UART0_RX")
 			(pinfunction "Pin_8_8")
 			(pintype "passive+no_connect")
 			(uuid "82756531-a80b-4945-a0e8-74704fedd8ee")
@@ -667,7 +667,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/GP21")
+			(net "/UART0_TX")
 			(pinfunction "Pin_9_9")
 			(pintype "passive+no_connect")
 			(uuid "af710990-df80-4505-a3c4-c93712118416")
@@ -2598,7 +2598,7 @@
 		(uuid "bc142f99-3438-40bc-ad99-98ac9a61829d")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
