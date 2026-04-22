@@ -2380,8 +2380,8 @@
 		)
 	)
 	(gr_line
-		(start 106.3 45.15)
-		(end 106 45.5)
+		(start 107.65 45.15)
+		(end 107.35 45.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2390,8 +2390,8 @@
 		(uuid "7b53950d-c1b6-43c3-9a8d-4eb4fe1fd955")
 	)
 	(gr_line
-		(start 106.3 45.15)
-		(end 106.6 45.5)
+		(start 107.65 45.15)
+		(end 107.95 45.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2400,8 +2400,8 @@
 		(uuid "1815734a-7cbc-4513-b465-a2ae88f782e6")
 	)
 	(gr_line
-		(start 106.3 48.7)
-		(end 106.3 45.2)
+		(start 107.65 48.7)
+		(end 107.65 45.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2410,8 +2410,8 @@
 		(uuid "0dca138d-9b8e-4233-a554-d1023bf57511")
 	)
 	(gr_circle
-		(center 106.35 48.7)
-		(end 106.35 48.9)
+		(center 107.7 48.7)
+		(end 107.7 48.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -2421,8 +2421,8 @@
 		(uuid "7594b684-d4ae-4d1d-a7e8-e089779740bf")
 	)
 	(gr_line
-		(start 106.35 48.7)
-		(end 109.85 48.7)
+		(start 107.7 48.7)
+		(end 111.2 48.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2431,8 +2431,8 @@
 		(uuid "18d22965-69f0-4463-bcf3-b9c481a38708")
 	)
 	(gr_line
-		(start 109.85 48.7)
-		(end 109.5 48.4)
+		(start 111.2 48.7)
+		(end 110.85 48.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2441,8 +2441,8 @@
 		(uuid "fba6ed0e-9541-4fa2-9ca2-b4b46b655c3d")
 	)
 	(gr_line
-		(start 109.85 48.7)
-		(end 109.5 49)
+		(start 111.2 48.7)
+		(end 110.85 49)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2557,7 +2557,7 @@
 		(uuid "c75ee5fe-d0df-4bf0-b9b2-0e1b01d94df0")
 	)
 	(gr_text "Y"
-		(at 105.4 46.7 0)
+		(at 106.75 46.7 0)
 		(layer "F.SilkS")
 		(uuid "273d655e-51c1-43bd-9863-82a60a0a9aa7")
 		(effects
@@ -2569,7 +2569,7 @@
 		)
 	)
 	(gr_text "Z"
-		(at 106.4 48.5 0)
+		(at 107.75 48.5 0)
 		(layer "F.SilkS")
 		(uuid "cf6c5846-f592-46cd-a29d-d370d08a5b33")
 		(effects
@@ -2581,7 +2581,7 @@
 		)
 	)
 	(gr_text "X"
-		(at 108.6 48.6 0)
+		(at 109.95 48.6 0)
 		(layer "F.SilkS")
 		(uuid "4db9eddb-608c-4d28-867b-51f890c572dd")
 		(effects
@@ -4309,6 +4309,15 @@
 				(xy 96.478753 44.002893) (xy 96.493078 44.00128) (xy 96.50696 44.0005) (xy 96.565892 44.0005) (xy 121.434108 44.0005)
 				(xy 121.49304 44.0005)
 			)
+		)
+	)
+	(group ""
+		(uuid "56cb931d-ee8f-44b8-bf36-5db855b52f72")
+		(members "0dca138d-9b8e-4233-a554-d1023bf57511" "1815734a-7cbc-4513-b465-a2ae88f782e6"
+			"18d22965-69f0-4463-bcf3-b9c481a38708" "273d655e-51c1-43bd-9863-82a60a0a9aa7"
+			"4db9eddb-608c-4d28-867b-51f890c572dd" "7594b684-d4ae-4d1d-a7e8-e089779740bf"
+			"7b53950d-c1b6-43c3-9a8d-4eb4fe1fd955" "af5ce1eb-a7b6-4331-90a6-7ec664a20f2d"
+			"cf6c5846-f592-46cd-a29d-d370d08a5b33" "fba6ed0e-9541-4fa2-9ca2-b4b46b655c3d"
 		)
 	)
 	(embedded_fonts no)
