@@ -99,7 +99,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -11.43 90)
+				(at 5.08 -11.43 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -116,10 +116,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 16.51 -1.27 180)
+			(pin passive line
+				(at -2.54 8.89 270)
 				(length 2.54)
-				(name "SDA"
+				(name "S1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -127,24 +127,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -11.43 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -162,7 +144,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -180,6 +162,24 @@
 						)
 					)
 				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 -11.43 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "7"
 					(effects
 						(font
@@ -189,7 +189,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -3.81 0)
+				(at -17.78 -1.27 0)
 				(length 2.54)
 				(name "SETP"
 					(effects
@@ -224,10 +224,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 -11.43 90)
+			(pin passive line
+				(at -17.78 -3.81 0)
 				(length 2.54)
-				(name "NC"
+				(name "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -260,10 +260,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -5.08 -11.43 90)
+			(pin passive line
+				(at -17.78 1.27 0)
 				(length 2.54)
-				(name "NC"
+				(name "SETC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -297,7 +297,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -7.62 -11.43 90)
+				(at -5.08 -11.43 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -332,10 +332,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -17.78 -1.27 0)
+			(pin bidirectional line
+				(at 16.51 -1.27 180)
 				(length 2.54)
-				(name "SETC"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -426,10 +426,10 @@
 			)
 		)
 		(symbol "QMI8658C_0_0"
-			(pin power_in line
-				(at -1.27 12.7 270)
+			(pin output line
+				(at -17.78 -3.81 0)
 				(length 2.54)
-				(name "VDDIO"
+				(name "SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -444,10 +444,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 1.27 0)
+			(pin passive line
+				(at 5.08 -13.97 90)
 				(length 2.54)
-				(name "SCLK"
+				(name "SDX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -462,10 +462,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -1.27 0)
+			(pin passive line
+				(at 7.62 -13.97 90)
 				(length 2.54)
-				(name "SDI"
+				(name "SCX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -481,9 +481,9 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -3.81 0)
+				(at -8.89 -13.97 90)
 				(length 2.54)
-				(name "SDO"
+				(name "INT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -498,10 +498,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 3.81 0)
+			(pin power_in line
+				(at -5.08 12.7 270)
 				(length 2.54)
-				(name "CSB"
+				(name "VDDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -516,10 +516,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 6.35 180)
+			(pin power_in line
+				(at 5.08 12.7 270)
 				(length 2.54)
-				(name "INT2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -534,10 +534,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 3.81 180)
+			(pin power_in line
+				(at 7.62 12.7 270)
 				(length 2.54)
-				(name "INT1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -552,10 +552,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 0 180)
+			(pin power_in line
+				(at -7.62 12.7 270)
 				(length 2.54)
-				(name "NC"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -570,10 +570,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 17.78 -2.54 180)
+			(pin output line
+				(at -6.35 -13.97 90)
 				(length 2.54)
-				(name "NC"
+				(name "INT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -589,7 +589,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 17.78 -5.08 180)
+				(at 17.78 1.27 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -607,7 +607,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 17.78 -7.62 180)
+				(at 17.78 -1.27 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -624,10 +624,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.27 -13.97 90)
+			(pin input line
+				(at -17.78 3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "NCS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -642,10 +642,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 -13.97 90)
+			(pin input line
+				(at -17.78 1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -675,10 +675,10 @@
 			)
 		)
 		(symbol "QMI8658C_1_0"
-			(pin power_in line
-				(at 2.54 12.7 270)
+			(pin input line
+				(at -17.78 -1.27 0)
 				(length 2.54)
-				(name "VDD"
+				(name "SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
