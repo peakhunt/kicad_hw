@@ -5202,6 +5202,14 @@
 		(net "Net-(U2-C1)")
 		(uuid "c50facd0-9528-4bda-9353-9974f3365166")
 	)
+	(segment
+		(start 101.38 71.595256)
+		(end 101.38 71.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/UART0_TX")
+		(uuid "3414420d-dd78-4980-8c76-fbf34a544126")
+	)
 	(zone
 		(net "/GND")
 		(layer "F.Cu")

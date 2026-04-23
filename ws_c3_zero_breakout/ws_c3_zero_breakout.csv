@@ -4,6 +4,8 @@
 "C6","1","4.7uF","","","","Capacitor_SMD:C_0603_1608Metric",""
 "J1","1","LEFT WING","","","","Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",""
 "J2","1","RIGHT WING","","","","Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",""
+"J3","1","UART","","","","Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal",""
+"J4","1","5V Power","","","","Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal",""
 "R1,R2,R3","3","4.7K","","","","Resistor_SMD:R_0603_1608Metric",""
 "U1","1","QMI8658C","","","","Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm",""
 "U2","1","QMC5883L","","","","Package_LGA:LGA-16_3x3mm_P0.5mm",""
