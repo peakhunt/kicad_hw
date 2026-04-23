@@ -99,7 +99,7 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1485900|1117600|b906c9f7-f887-47ad-9e5d-2eb4c2b18aac|76d4ffde-9704-4779-a732-d1862a6a1575|/7fc214cc-c7a9-4c96-a876-0eb3369f7d50|/7fc214cc-c7a9-4c96-a876-0eb3369f7d50|/7fc214cc-c7a9-4c96-a876-0eb3369f7d50",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -644,7 +649,7 @@
         "uuid": "7fc214cc-c7a9-4c96-a876-0eb3369f7d50"
       }
     ],
-    "used_designators": "C3-6,U1-2",
+    "used_designators": "R4,C3-7,U1-3",
     "variants": []
   },
   "sheets": [
