@@ -3347,7 +3347,7 @@
 		(uuid "ac56db7a-d060-4e4f-bd4d-23d72974cfae")
 	)
 	(label "LCD_HSYNC"
-		(at 93.98 64.77 0)
+		(at 93.98 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 		(uuid "bb43f187-9de8-41cc-a694-1e78ff04c3a3")
 	)
 	(label "LCD_VSYNC"
-		(at 93.98 67.31 0)
+		(at 93.98 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
