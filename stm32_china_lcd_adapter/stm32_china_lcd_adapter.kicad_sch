@@ -5948,7 +5948,7 @@
 				)
 			)
 		)
-		(property "Value" "China_40P_LCD"
+		(property "Value" "STM32_40P_LCD"
 			(at 240.665 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
