@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stm32_wildfire_lcd_adapter.kicad_pro",
+    "filename": "ez_usb_cyclone10.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -639,18 +639,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "stm32_wildfire_lcd_adapter.kicad_sch",
-        "name": "stm32_wildfire_lcd_adapter",
-        "uuid": "a21d034f-552d-4a61-a8ac-e764269ebd11"
+        "filename": "ez_usb_cyclone10.kicad_sch",
+        "name": "Root",
+        "uuid": "7dc5a082-70ec-4213-8582-2ac5fa88f1fb"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "J1-4",
     "variants": []
   },
   "sheets": [
     [
-      "a21d034f-552d-4a61-a8ac-e764269ebd11",
-      "stm32_wildfire_lcd_adapter"
+      "7dc5a082-70ec-4213-8582-2ac5fa88f1fb",
+      "Root"
     ]
   ],
   "text_variables": {},
