@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MBS China STM32 LCD")
-		(date "2026-05-06")
-		(rev "0.1")
+		(date "2026-06-06")
+		(rev "0.2")
 		(company "MBS CLass@")
 	)
 	(lib_symbols
@@ -5929,7 +5929,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x40_Pin")
-		(at 240.03 81.28 0)
+		(at 240.03 83.82 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5939,7 +5940,7 @@
 		(dnp no)
 		(uuid "200beaf1-15a4-4277-8240-c2a63d5ff121")
 		(property "Reference" "J2"
-			(at 240.665 27.94 0)
+			(at 240.665 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5949,7 +5950,7 @@
 			)
 		)
 		(property "Value" "STM32_40P_LCD"
-			(at 240.665 30.48 0)
+			(at 240.665 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5958,8 +5959,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
-			(at 240.03 81.28 0)
+		(property "Footprint" "Connector_FFC-FPC:TE_4-1734839-0_1x40-1MP_P0.5mm_Horizontal"
+			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +5971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 81.28 0)
+			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5981,7 +5982,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated"
-			(at 240.03 81.28 0)
+			(at 240.03 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,8 +6364,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 137.16 121.92 0)
-		(mirror y)
+		(at 137.16 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6374,7 +6374,7 @@
 		(dnp no)
 		(uuid "4e5b57e4-74b5-4e90-8750-2c3ab57b2b67")
 		(property "Reference" "J3"
-			(at 136.525 111.76 0)
+			(at 136.525 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6384,7 +6384,7 @@
 			)
 		)
 		(property "Value" "China_6P_CTP"
-			(at 138.4366 114.3 0)
+			(at 138.4366 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6394,7 +6394,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 137.16 121.92 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +6405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 121.92 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6416,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 137.16 121.92 0)
+			(at 137.16 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,8 +7027,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x40_Pin")
-		(at 59.69 81.28 0)
-		(mirror y)
+		(at 59.69 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7038,7 +7037,7 @@
 		(dnp no)
 		(uuid "972f507c-2463-41e2-a1e5-323fd4432ddb")
 		(property "Reference" "J1"
-			(at 59.055 27.94 0)
+			(at 59.055 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7048,7 +7047,7 @@
 			)
 		)
 		(property "Value" "China_40P_LCD"
-			(at 59.055 30.48 0)
+			(at 59.055 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7057,8 +7056,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
-			(at 59.69 81.28 0)
+		(property "Footprint" "Connector_FFC-FPC:TE_4-1734839-0_1x40-1MP_P0.5mm_Horizontal"
+			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 81.28 0)
+			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7080,7 +7079,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated"
-			(at 59.69 81.28 0)
+			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
